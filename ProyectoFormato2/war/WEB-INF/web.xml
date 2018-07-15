@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+	<servlet-name>UsersControllerIndex</servlet-name>
+	<servlet-class>users.UsersControllerIndex</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>UsersControllerIndex</servlet-name>
+	<url-pattern>/users</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>UsersControllerView</servlet-name>
+	<servlet-class>users.UsersControllerView</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>UsersControllerView</servlet-name>
+	<url-pattern>/users/view</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>UsersControllerDelete</servlet-name>
+	<servlet-class>users.UsersControllerDelete</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>UsersControllerDelete</servlet-name>
+	<url-pattern>/users/delete</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>UsersControllerAdd</servlet-name>
+	<servlet-class>users.UsersControllerAdd</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>UsersControllerAdd</servlet-name>
+	<url-pattern>/users/add</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ResourcesControllerIndex</servlet-name>
+	<servlet-class>resources.ResourcesControllerIndex</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ResourcesControllerIndex</servlet-name>
+	<url-pattern>/resources</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>ResourcesControllerView</servlet-name>
+	<servlet-class>resources.ResourcesControllerView</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ResourcesControllerView</servlet-name>
+	<url-pattern>/resources/view</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>ResourcesControllerDelete</servlet-name>
+	<servlet-class>resources.ResourcesControllerDelete</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ResourcesControllerDelete</servlet-name>
+	<url-pattern>/resources/delete</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>ResourcesControllerAdd</servlet-name>
+	<servlet-class>resources.ResourcesControllerAdd</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ResourcesControllerAdd</servlet-name>
+	<url-pattern>/resources/add</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AccessControllerIndex</servlet-name>
+	<servlet-class>access.AccessControllerIndex</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AccessControllerIndex</servlet-name>
+	<url-pattern>/access</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>AccessControllerView</servlet-name>
+	<servlet-class>access.AccessControllerView</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AccessControllerView</servlet-name>
+	<url-pattern>/access/view</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>AccessControllerDelete</servlet-name>
+	<servlet-class>access.AccessControllerDelete</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AccessControllerDelete</servlet-name>
+	<url-pattern>/access/delete</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>AccessControllerAdd</servlet-name>
+	<servlet-class>access.AccessControllerAdd</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AccessControllerAdd</servlet-name>
+	<url-pattern>/access/add</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>RolesControllerIndex</servlet-name>
+	<servlet-class>roles.RolesControllerIndex</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>RolesControllerIndex</servlet-name>
+	<url-pattern>/roles</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>RolesControllerView</servlet-name>
+	<servlet-class>roles.RolesControllerView</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>RolesControllerView</servlet-name>
+	<url-pattern>/roles/view</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>RolesControllerDelete</servlet-name>
+	<servlet-class>roles.RolesControllerDelete</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>RolesControllerDelete</servlet-name>
+	<url-pattern>/roles/delete</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>RolesControllerAdd</servlet-name>
+	<servlet-class>roles.RolesControllerAdd</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>RolesControllerAdd</servlet-name>
+	<url-pattern>/roles/add</url-pattern>
+</servlet-mapping>
+	<servlet>
+	<servlet-name>CarrerasControllerIndex</servlet-name>
+	<servlet-class>carreras.CarrerasControllerIndex</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>CarrerasControllerIndex</servlet-name>
+	<url-pattern>/carreras</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>CarrerasControllerView</servlet-name>
+	<servlet-class>carreras.CarrerasControllerView</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>CarrerasControllerView</servlet-name>
+	<url-pattern>/carreras/view</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>CarrerasControllerDelete</servlet-name>
+	<servlet-class>carreras.CarrerasControllerDelete</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>CarrerasControllerDelete</servlet-name>
+	<url-pattern>/carreras/delete</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>CarrerasControllerAdd</servlet-name>
+	<servlet-class>carreras.CarrerasControllerAdd</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>CarrerasControllerAdd</servlet-name>
+	<url-pattern>/carreras/add</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>CursosControllerIndex</servlet-name>
+	<servlet-class>cursos.CursosControllerIndex</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>CursosControllerIndex</servlet-name>
+	<url-pattern>/cursos</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>CursosControllerView</servlet-name>
+	<servlet-class>cursos.CursosControllerView</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>CursosControllerView</servlet-name>
+	<url-pattern>/cursos/view</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>CursosControllerDelete</servlet-name>
+	<servlet-class>cursos.CursosControllerDelete</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>CursosControllerDelete</servlet-name>
+	<url-pattern>/cursos/delete</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>CursosControllerAdd</servlet-name>
+	<servlet-class>cursos.CursosControllerAdd</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>CursosControllerAdd</servlet-name>
+	<url-pattern>/cursos/add</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>CursosCarrera</servlet-name>
+	<servlet-class>cursos.CursoCarrera</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>CursosCarrera</servlet-name>
+	<url-pattern>/cursos/carrera</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>ProfesoresControllerIndex</servlet-name>
+	<servlet-class>profesores.ProfesoresControllerIndex</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ProfesoresControllerIndex</servlet-name>
+	<url-pattern>/profesores</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>ProfesoresControllerView</servlet-name>
+	<servlet-class>profesores.ProfesoresControllerView</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ProfesoresControllerView</servlet-name>
+	<url-pattern>/profesores/view</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>ProfesoresControllerDelete</servlet-name>
+	<servlet-class>profesores.ProfesoresControllerDelete</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ProfesoresControllerDelete</servlet-name>
+	<url-pattern>/profesores/delete</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>ProfesoresControllerAdd</servlet-name>
+	<servlet-class>profesores.ProfesoresControllerAdd</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ProfesoresControllerAdd</servlet-name>
+	<url-pattern>/profesores/add</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AlumnosControllerIndex</servlet-name>
+	<servlet-class>alumnos.AlumnosControllerIndex</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AlumnosControllerIndex</servlet-name>
+	<url-pattern>/alumnos</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>AlumnosControllerView</servlet-name>
+	<servlet-class>alumnos.AlumnosControllerView</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AlumnosControllerView</servlet-name>
+	<url-pattern>/alumnos/view</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>AlumnosControllerDelete</servlet-name>
+	<servlet-class>alumnos.AlumnosControllerDelete</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AlumnosControllerDelete</servlet-name>
+	<url-pattern>/alumnos/delete</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>AlumnosControllerAdd</servlet-name>
+	<servlet-class>alumnos.AlumnosControllerAdd</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AlumnosControllerAdd</servlet-name>
+	<url-pattern>/alumnos/add</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AlumnosCarrera</servlet-name>
+	<servlet-class>alumnos.AlumnoCarrera</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AlumnosCarrera</servlet-name>
+	<url-pattern>/alumnos/carrera</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>FacturasControllerIndex</servlet-name>
+	<servlet-class>facturas.FacturasControllerIndex</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>FacturasControllerIndex</servlet-name>
+	<url-pattern>/facturas</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>FacturasControllerView</servlet-name>
+	<servlet-class>facturas.FacturasControllerView</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>FacturasControllerView</servlet-name>
+	<url-pattern>/facturas/view</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>FacturasControllerDelete</servlet-name>
+	<servlet-class>facturas.FacturasControllerDelete</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>FacturasControllerDelete</servlet-name>
+	<url-pattern>/facturas/delete</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>FacturasControllerAdd</servlet-name>
+	<servlet-class>facturas.FacturasControllerAdd</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>FacturasControllerAdd</servlet-name>
+	<url-pattern>/facturas/add</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>NotasControllerIndex</servlet-name>
+	<servlet-class>notas.NotasControllerIndex</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>NotasControllerIndex</servlet-name>
+	<url-pattern>/notas</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>NotasControllerView</servlet-name>
+	<servlet-class>notas.NotasControllerView</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>NotasControllerView</servlet-name>
+	<url-pattern>/notas/view</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>NotasControllerDelete</servlet-name>
+	<servlet-class>notas.NotasControllerDelete</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>NotasControllerDelete</servlet-name>
+	<url-pattern>/notas/delete</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>NotasControllerAdd</servlet-name>
+	<servlet-class>notas.NotasControllerAdd</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>NotasControllerAdd</servlet-name>
+	<url-pattern>/notas/add</url-pattern>
+</servlet-mapping>
+
+		<servlet>
+		<servlet-name>controladorNotaCarrera</servlet-name>
+		<servlet-class>notas.notaCarrera</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controladorNotaCarrera</servlet-name>
+		<url-pattern>/notas/carrera</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>controladorNotaCarreraCurso</servlet-name>
+		<servlet-class>notas.notaCarreraCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controladorNotaCarreraCurso</servlet-name>
+		<url-pattern>/notas/carrera/curso</url-pattern>
+	</servlet-mapping>	
+	
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+<servlet>
+	<servlet-name>UsuarioInicio</servlet-name>
+	<servlet-class>users.UsuarioInicio</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>UsuarioInicio</servlet-name>
+	<url-pattern>/usuario/inicio</url-pattern>
+</servlet-mapping>
+
+	<servlet>
+		<servlet-name>web</servlet-name>
+		<servlet-class>controlador.web.index</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>web</servlet-name>
+		<url-pattern>/inicio</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>controladorAlumnoMiNota</servlet-name>
+		<servlet-class>alumnos.miNota</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controladorAlumnoMiNota</servlet-name>
+		<url-pattern>/alumno/miNota</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>controladorProfesorMisCursos</servlet-name>
+		<servlet-class>profesores.misCursos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controladorProfesorMisCursos</servlet-name>
+		<url-pattern>/profesor/misCursos</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>controladorProfesorMisCursosNota</servlet-name>
+		<servlet-class>profesores.misCursosNota</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controladorProfesorMisCursosNota</servlet-name>
+		<url-pattern>/profesor/misCursos/nota</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+		<servlet-name>controladorCerrarSession</servlet-name>
+		<servlet-class>controlador.web.cerrarSession</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>controladorCerrarSession</servlet-name>
+		<url-pattern>/cerrarSession</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
